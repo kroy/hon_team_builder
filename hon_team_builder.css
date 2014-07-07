@@ -1,0 +1,255 @@
+/*
+	Container Styling
+*/
+
+.container {
+	width: 75%;
+	height: 100%;
+	min-height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: rgba(128,128,128,.4);*/
+	border-radius: 5px;
+	padding: 2%;
+}
+
+/*********************
+	Body Styling
+*/
+
+body {
+	font-family: 'Open Sans',sans-serif;
+	background-color: black;
+	background-image: url('img/backgrounds/campfire.jpg');
+	background-size: 100% 120%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+button {
+	/*background: rgb(255,167,51);*/
+	background: rgba(255,255, 255, .9);
+	/*background: rgba(175,238,238,.7);*/
+	text-decoration: none;
+	border:1px solid #FFDBAB;
+	padding: 0 5px;
+	font-weight: 100;
+	font-family: sans-serif;
+}
+
+button:hover{
+	background: rgb(255,167,51);
+}
+
+a {
+	/*text-decoration: none;*/
+	color: rgb(255,167,51);
+}
+
+a:active {
+	color: rgb(255,167,51);
+}
+
+a:hover{
+	background-color: rgba(255,255,255,.3);
+}
+
+p {
+	color: white;
+}
+
+span.brand {
+	font-family: 'days', sans-serif;
+	color: rgb(255,167,51);
+	size: 150%;
+}
+
+strong {
+	color: rgb(255,167,51);
+}
+
+/**********************
+	Glyphicons
+*/
+img.glyphicon {
+	height: 15px;
+}
+
+/**********************
+	Navbar
+*/
+
+nav {
+	width: 100%;
+}
+
+.navbar{
+	font-family: 'days', sans-serif;
+	background-color: rgba(0,0,0,.3);
+	padding: 0 10px;
+	border-radius: 7px;
+}
+
+.navbar .logo {
+	font-size: 150%;
+}
+
+ul.nav {
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+	padding-left: 0px;
+}
+
+ul.nav li {
+	display: inline-block;
+	margin-right: 5px;
+	padding:2px;
+}
+
+ul.nav li:hover {
+	background-color: rgba(255,255,255,.3);
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+/**********************
+	Heading area
+*/
+
+div.heading {
+	margin-bottom: 15px;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 5px;
+	padding: 0 10px;
+}
+
+div.heading h1{
+	font-family: 'days', sans-serif;
+	display: inline-block;
+	margin-right: 20px;
+	color: rgb(255,167,51);
+}
+
+div.heading-buttons {
+	display: inline-block;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+
+button.heading-btn {
+	font-size: 110%;
+	border-radius: 2px;
+	padding: 5px 10px;
+}
+
+div.heading div#instructions {
+	display: none;
+	width: 90%;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/**********************
+	Hero board
+**/
+.hellbourne {
+	display: inline-block;
+}
+
+.hero-category{
+	margin-bottom: 15px;
+	width: auto;
+	min-width: 550px;
+}
+
+.legion {
+	display: inline-block;
+}
+
+.hero-board {
+	display: inline-block;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+/**
+	Rows within hero board
+**/
+.row {
+
+}
+.row div.hero-box {
+	display: inline-block;
+	background-image: url('img/empty_legion.jpg');
+	background-size: 100%;
+	width: 55px;
+	height: 55px;
+	padding:3px;
+	border-radius: 5px;
+	border: 1px solid rgba(175,238,238,.7);
+}
+
+.hero-box img {
+	width: 100%;
+	height: 100%;
+}
+
+.row div.hero-box:hover {
+	cursor: pointer;
+	border:3px solid rgba(175,238,238,.7);
+	padding: 1px;
+}
+
+/********************
+	Player selections
+**/
+
+.players {
+	display: inline-block;
+	float: left;
+	width: 250px;
+}
+
+div.player-selection{
+	background-color: rgba(0,0,0,.5);
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 132px;
+}
+
+div.player-hero-icon {
+	width: 128px;
+	height: 128px;
+	background-image:url('img/empty_legion.jpg');
+	border-radius: 5px;
+	border: 2px solid rgba(175,238,238,.7);
+	margin-bottom: 10px;
+}
+
+div.player-controls {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.player-selection button {
+	border-radius: 4px;
+	width: 100%;
+	height: 25px;
+	font-size: 100%;
+}
+
+
+
+/******************
+	Fonts
+*/
+
+@font-face {
+	font-family: 'days';
+	src: url('fonts/Days.otf') format('opentype');
+}
